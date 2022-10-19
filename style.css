@@ -1,0 +1,91 @@
+/* playfair-display-regular - latin */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/playfair-display-v30-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/playfair-display-v30-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+    font-family: 'Playfair Display', curisve;
+    background-color: #FFFFFF;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', cursive;
+    color: #2857A9;
+}
+h4 {
+    font-family: 'Playfair Display', cursive;
+    color: #000000;
+}
+
+.btn-xlg {
+    background-color: #D9D9D9;
+    font-size: 100rem;
+}
+.btn-lg {
+    background-color: #D9D9D9;
+}
+.btn-sm {
+    background-color: #D9D9D9;
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+.btn-primary {
+    color: #2857A9;
+    background-color: #D9D9D9;
+}
+
+.btn-primary:hover {
+    color: #2857A9;
+    background-color: #D9D9D9;
+    filter: brightness(120%);
+}
+
+.btn-secondary {
+    color: #D9D9D9;
+    background-color: #2857A9;
+    margin-right: 0.2rem;
+    /* margin-bottom: 0.1rem; */
+    /* font-size: 3rem; */
+    border: transparent;
+}
+.btn-secondary:hover {
+    color: #D9D9D9;
+    background-color: #2857A9;
+    margin-right: 0.2rem;
+    /* margin-bottom: 0.1rem; */
+    /* font-size: 3rem; */
+    border: transparent;
+    filter: brightness(120%);
+}
+
+.nav-item{
+    color: #000000;
+}
+
+.event{
+    max-width: 20rem;
+    max-height: 20rem;
+    /* margin-bottom: 3rem; */
+    padding: 1rem;
+}
+
+.event:hover{
+    max-width: 20rem;
+    max-height: 20rem;
+    /* margin-bottom: 3rem; */
+    padding: 1rem;
+    filter: brightness(120%);
+}
+
+/* .img{
+
+} */
